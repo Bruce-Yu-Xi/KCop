@@ -2726,6 +2726,7 @@
 		.button.special {
 			background-color: #e89980;
 			color: #ffffff !important;
+			font-size: 1.25em;
 		}
 
 			input[type="submit"].special:hover,
@@ -2820,7 +2821,8 @@
 	}
 
 		#header h1 {
-			color: inherit;
+			color: #fff;
+			font-size: 1.25em; 
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
@@ -2864,7 +2866,8 @@
 						display: inline-block;
 						height: 2em;
 						line-height: 1.95em;
-						padding: 0 1em;
+						font-size: 1.25em;
+						padding: 0 1em;	
 						border-radius: 6px;
 					}
 
@@ -2876,7 +2879,7 @@
 					}
 
 						#header nav > ul > li a:not(.button).icon:before {
-							color: #999;
+							color: #fff;
 							margin-right: 0.5em;
 						}
 
@@ -2885,7 +2888,7 @@
 					}
 
 					#header nav > ul > li.active a:not(.button) {
-						background-color: rgba(153, 153, 153, 0.25);
+						/*background-color: rgba(153, 153, 153, 0.25);*/
 					}
 
 					#header nav > ul > li .button {
@@ -2898,7 +2901,7 @@
 		#header input[type="button"],
 		#header .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #999;
+			box-shadow: inset 0 0 0 2px #fff;
 			color: #fff;
 		}
 
@@ -3054,6 +3057,7 @@
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
+			font-weight: bold;
 		}
 
 		#banner h2 {
@@ -3064,7 +3068,8 @@
 		}
 
 		#banner p {
-			font-size: 1.25em;
+			font-size: 2em;
+			font-weight: bold;
 			margin-bottom: 1.75em;
 		}
 
